@@ -6,7 +6,7 @@ import cv2
 #video = cv2.VideoCapture("rtsp://admin:admin@123@192.168.29.14:554/media/video1")
  
 
-video = cv2.VideoCapture("rtsp://admin:admin@123@192.168.29.15:554/media/video2")
+video = cv2.VideoCapture("rtsp://admin:admin@123@192.168.29.15:554/media/video1")
 
   
 # We need to check if camera
@@ -25,7 +25,7 @@ size = (frame_width, frame_height)
 # Below VideoWriter object will create
 # a frame of above defined The output 
 # is stored in 'filename.avi' file.
-result = cv2.VideoWriter('filename6.avi', 
+result = cv2.VideoWriter('filename7.avi', 
                          cv2.VideoWriter_fourcc(*'MJPG'),
                          10, size)
     
